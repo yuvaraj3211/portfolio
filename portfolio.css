@@ -1,0 +1,291 @@
+*{
+    margin:0%;
+    font-family: sans-serif;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 4px;
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#navbar span{
+    color: gold;
+}
+#navbar img{
+    border-radius: 50%;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    background-image: url('images\ \(1\).jpg');
+    width: 94%;
+    height: 50vh;
+    padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.leftside h1{
+    color: white;
+
+}
+.leftside p{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.homebtns button{
+    background-color: gold;
+    padding: 10px;
+    border: none;
+    margin-right: 30px;
+    border-radius: 7px;
+}
+.homebtns button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid gold;
+
+}
+#skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: black;
+}
+.card{
+    background-color: darkgreen;
+    width: 16%;
+    text-align: center;
+    border: 0.8px solid grey;
+    padding: 30px;
+    color: white;
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.card h3{
+    margin-top: 10px;
+    margin-bottom: 7px;
+
+}
+#project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: black;
+}
+.pard{
+    background-color: darkgreen;
+    width: 16%;
+    text-align: center;
+    border: 0.8px solid grey;
+    padding: 30px;
+    color: white;
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.pard h3{
+    margin-top: 10px;
+    margin-bottom: 7px;
+
+}
+.but{
+    margin-top: 10px;
+    background-color: gold;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+
+}
+.but:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid gold;
+
+}
+
+table{
+    width:90%;
+    margin: 10px 70px;
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: darkgreen; 
+    color: white;
+}
+td{
+    background-color: green;
+    color: white;
+}
+/* Contact Heading */
+.heading {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* Contact Section */
+#Contact {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: lightcyan;
+    gap: 30px;
+}
+/* Left Side */
+#Contact .left {
+    width: 50%;
+}
+/* Right Side */
+#Contact .right {
+    width: 50%;
+}
+/* Form */
+#Contact form {
+    display: flex;
+    flex-direction: column;
+}
+/* Labels */
+#Contact label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+/* Email Input */
+#Contact input {
+    width: 100%;
+    height: 45px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+/* Comment Box */
+#Contact textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical;
+}
+/* Button */
+#Contact button {
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    background-color: darkgreen;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 7px;
+}
+ button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid gold;
+}
+/* Map */
+#Contact iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    border: none;
+}
+
+#declaration {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: darkgreen;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 8px;
+    gap: 30px;
+}
+
+#declaration .declaration-text {
+    display: flex;
+    align-items: center;
+    flex: 2;
+    gap: 15px;
+    min-width: 0;
+}
+
+#declaration .declaration-text p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#declaration .declaration-sign {
+    flex: 1;
+    text-align: center;
+}
+
+#declaration .sign-line {
+    width: 130px;
+    border-top: 1px solid white;
+    margin: 0 auto 8px;
+}
+#foot {
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 700px;
+}
+
+.lg {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+
+.lg img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.lg a {
+    display: inline-block;
+}
+
+
+
+
+
